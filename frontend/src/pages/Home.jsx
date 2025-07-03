@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-import ProfileBox from "../components/ProfileBox";
+import Main from "../components/Main";
 
 const Home = () => {
   return (
     <div className="">
       <Header />
-      <ProfileBox />
+      <Main />
     </div>
   );
 };

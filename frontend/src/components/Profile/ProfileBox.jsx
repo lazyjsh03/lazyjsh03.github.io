@@ -1,10 +1,11 @@
 import ProfileImage from "./ProfileImage";
+import ProfileInfo from "./ProfileInfo";
 
 const ProfileBox = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-1/3 mt-10 border h-screen">
-      Profile Box
+    <div className="flex flex-col items-center w-1/3 mt-10 ml-5 border h-screen ">
       <ProfileImage />
+      <ProfileInfo />
     </div>
   );
 };
